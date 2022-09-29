@@ -20803,7 +20803,7 @@ l=A.asy()
 m.L1$=l
 m.L2$=new A.SO(A.aS(t.Gf))
 l=t.z
-p=A.av7(A.aL(["authorization",u.C,"Access-Control-Allow-Origin","*/*","ngrok-skip-browser-warning","false","Access-Control-Allow-Methods","POST, GET, OPTIONS, PUT, DELETE, HEAD","Access-Control-Allow-Credentials","true","Access-Control-Allow-Headers","Origin,Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,locale","Content-Type","application/json","Authorization",u.C],t.N,l))
+p=A.av7(A.aL(["authorization",u.C,"Content-Type","application/json","Authorization",u.C],t.N,l))
 p.a="GET"
 s=3
 return A.a2(m.Cm(0,"https://aac1-122-169-115-137.jp.ngrok.io/api/categories",null,null,p,null,l),$async$Sl)
